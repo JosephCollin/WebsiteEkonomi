@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bentuk Transaksi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #114; /* Warna navbar */
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Home: Warna sama dengan navbar */
+    .active {
+      background-color: #114; /* Sama dengan warna latar belakang navbar */
+      font-weight: bold;
+    }
+
+    /* Hover untuk "Bentuk Kegiatan Ekonomi" */
+    li a[href="#politik"]:hover {
+      background-color: #28a745; /* Hijau */
+    }
+
+    /* Hover warna hijau untuk elemen lainnya */
+    li a:hover:not(.active) {
+      background-color: #04AA6D; /* Hijau terang */
+    }
+
+    .navbar-logo {
+      float: left;
+      padding: 10px 16px;
+    }
+
+    .navbar-logo img {
+      height: 40px; 
+      width: auto;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    h2, h3 {
+      text-align: center;
+      color: #04AA6D;
+    }
+
+    .explanation-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .explanation-card {
+      background: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      width: 300px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .explanation-card:hover {
+      transform: scale(1.05);
+    }
+
+    .explanation-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .explanation-card h4 {
+      margin: 15px;
+      color: #333;
+    }
+
+    .explanation-card p {
+      margin: 0 15px 15px;
+      color: #555;
+      font-size: 14px;
+    }
+
+    .footer {
+      text-align: center;
+      background: #114;
+      color: white;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+<ul>
+  <li class="navbar-logo">
+    <img src="logo.png" alt="Logo">
+  </li>
+  <li><a href="file:///C:/Users/Joseph/OneDrive/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/Landing%20Page/Home%20page%20Politik%20Sosial%20dan%20Ekonomi.html" class="active">Home</a></li>
+  <li><a href="file:///C:/Users/Joseph/OneDrive/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/PolitikNegaraburik.html#sosial">Bentuk Kegiatan Ekonomi</a></li>
+  <li><a href="#sosial">Mata Uang</a></li>
+</ul>
+
+<div class="content">
+  <h2>Bentuk-Bentuk Transaksi</h2>
+  <div class="explanation-section">
+    <!-- Bagian Transaksi Digital -->
+    <div class="explanation-card">
+      <img src="transaksiDigital.jpeg" alt="Transaksi Digital">
+      <h4>Transaksi Digital</h4>
+      <p>Transaksi yang dilakukan melalui platform digital seperti e-commerce, mobile banking, atau dompet digital. Proses ini cepat, efisien, dan aman.</p>
+    </div>
+    <!-- Bagian Transaksi Non-Digital -->
+    <div class="explanation-card">
+      <img src="transaksiNonDigital.jpg" alt="Transaksi Non-Digital">
+      <h4>Transaksi Non-Digital</h4>
+      <p>Transaksi tradisional yang melibatkan pertukaran langsung barang atau jasa. Biasanya menggunakan uang tunai atau sistem barter.</p>
+    </div>
+  </div>
+
+  <h3>Berita Terkait Bentuk Transaksi</h3>
+  <div class="explanation-section">
+    <!-- Berita 1 -->
+    <div class="explanation-card">
+      <a href="https://www.viva.co.id/bisnis/1753916-meledaknya-e-wallet-di-indonesia-tren-penggunaan-dompet-digital-indonesia-2024">
+      <img src="news1.jpeg" alt="Berita 1"></a>
+      <h4>Tren Dompet Digital</h4>
+      <p>Peningkatan signifikan dalam penggunaan dompet digital di tahun 2024 mencerminkan perubahan kebiasaan pembayaran masyarakat.</p>
+    </div>
+    <!-- Berita 2 -->
+    <div class="explanation-card">
+      <a href="https://www.jalin.co.id/id-id/berita/blog/peranan-metode-pembayaran-non-tunai-untuk-layanan-pelanggan">
+      <img src="news2.jpeg" alt="Berita 2"></a>
+      <h4>Kepercayaan pada Non-Tunai</h4>
+      <p>Kepercayaan terhadap pembayaran non-tunai semakin kuat seiring dengan meningkatnya layanan keuangan digital yang terpercaya.</p>
+    </div>
+    <!-- Berita 3 -->
+    <div class="explanation-card">
+      <a href="https://www.puskomedia.id/blog/transaksi-uang-tunai-di-desa/">
+      <img src="news3.jpg" alt="Berita 3"></a>
+      <h4>Tantangan Transaksi Tradisional</h4>
+      <p>Walaupun praktis di beberapa konteks, transaksi tradisional menghadapi tantangan di era modern, seperti efisiensi dan dokumentasi.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright &copy; 2024 J Collin</p>
+</div>
+
+</body>
+</html>
+
